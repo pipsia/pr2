@@ -1,0 +1,29 @@
+# Игнорировать папку сборки CMake
+/build/
+
+# Игнорировать временные файлы компиляции
+*.o
+*.out
+*.a
+*.so
+
+# Игнорировать исполняемые файлы
+practical_work_2
+
+# Игнорировать файлы редактора (например, VSCode, Vim, Emacs)
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Игнорировать логи и временные файлы
+*.log
+*.tmp
+
+# Игнорировать файлы, созданные CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
